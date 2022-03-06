@@ -127,5 +127,7 @@ footer{
         min-width: 100px;
         order: -1;
     }
-    
+    #Infos-footer{
+        width: 80%;
+    }
 }
