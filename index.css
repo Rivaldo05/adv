@@ -72,6 +72,8 @@ header{
     border-radius: 10px;
     display: block;
     margin: 20px auto;
+    width: 100%;
+    max-width: 300px;
 
 }
 #button-contato > a{
@@ -102,7 +104,6 @@ header{
     width: 100%;
     height: 180px;
     padding: 10px;
-    
 }
 .contImg-info{
     width: 100px;
@@ -140,9 +141,7 @@ footer{
     #header-info > h1{
         font-size: 1.5em;
     }
-    #header-info > span{
-        font-size: 1em;
-    }
+
     #article-inicio{
         flex-direction: column;
         align-items: center;
