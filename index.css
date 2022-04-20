@@ -66,8 +66,7 @@ header{
 
 }
 #button-contato{
-    background-color: #af7825;
-    box-shadow: 3px 3px 2px #f3b961;
+    background-color: green;
     border: none;
     border-radius: 10px;
     display: block;
