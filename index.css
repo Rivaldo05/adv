@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -8,12 +10,15 @@
     font-size: 1em;
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
+    line-height: 1.4em;
+
 }
 img{
     width: 100%;
     height: 100%;
 }
-h2,h3{
+h1,h2,h3{
+    font-family: 'Source-Sans-Pro';
     font-size: 2em;
     text-align: center;
     margin-bottom: 20px;
@@ -21,14 +26,10 @@ h2,h3{
 }
 p{
     width: 100%;
-    padding: 0 10px;
+    padding: 10px;
     margin: 0 auto;
     font-size: 1.25em;
-    line-height: 1.4em;
     text-align: center;
-}
-p + p{
-    margin-top: 20px;
 }
 header{
     height: 150px;
@@ -50,13 +51,13 @@ header{
     display: block;
     color: #ffbd59;
     text-align: center;
+    margin: 0;
 
 }
-#header-info > h1{
-    font-size: 2em;
-}
+
 #header-info > span{
-    font-size: 1.25em;
+    font-size: 2em;
+    font-family: 'Allura';
 }
 
 #article-inicio{
@@ -103,10 +104,15 @@ header{
     padding: 0 10px;
 }
 .atuacao-info{
+    transition: 1s;
     border: 1px solid #6d4100;
     width: 100%;
-    height: 180px;
+    min-height: 180px;
     padding: 10px;
+}
+.atuacao-info:hover{
+    background-color: rgb(24 40 55);
+    border-color: rgb(245, 245, 220);
 }
 .contImg-info{
     width: 100px;
@@ -153,6 +159,9 @@ footer{
         height: 150px;
         min-width: 100px;
         order: -1;
+    }
+    #contenteiner-atuacao{
+        gap: 50px;
     }
     #Infos-footer{
         width: 80%;
